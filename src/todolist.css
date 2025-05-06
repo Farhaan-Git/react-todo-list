@@ -1,0 +1,103 @@
+.todolist-entity {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .todolist-entity h2 {
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+  }
+  
+  .input-newTask {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .addTask-button {
+    padding: 10px 16px;
+    background-color: rgb(46, 139, 87); /* Green */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addTask-button:hover {
+    background-color: rgb(36, 107, 69);
+  }
+  
+  ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .list-element {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .list-element button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* DELETE button */
+  .list-element button:nth-of-type(1) {
+    background-color: rgb(231, 76, 60); /* Red */
+  }
+  .list-element button:nth-of-type(1):hover {
+    background-color: rgb(192, 57, 43);
+  }
+  
+  /* MOVE UP button */
+  .list-element button:nth-of-type(2) {
+    background-color: rgb(52, 152, 219); /* Blue */
+  }
+  .list-element button:nth-of-type(2):hover {
+    background-color: rgb(33, 125, 187);
+  }
+  
+  /* MOVE DOWN button */
+  .list-element button:nth-of-type(3) {
+    background-color: rgb(229, 105, 251); /* Yellow */
+    color: rgb(0, 0, 0);
+  }
+  .list-element button:nth-of-type(3):hover {
+    background-color: rgb(217, 28, 251);
+  }
+  
+  /* Text spans */
+  .list-element span {
+    flex-grow: 1;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    word-break: break-word;
+  }
+  
