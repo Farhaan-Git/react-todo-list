@@ -68,7 +68,7 @@
     color: rgb(255, 255, 255);
   }
   
-  /* DELETE button */
+
   .list-element button:nth-of-type(1) {
     background-color: rgb(231, 76, 60); /* Red */
   }
@@ -76,7 +76,7 @@
     background-color: rgb(192, 57, 43);
   }
   
-  /* MOVE UP button */
+
   .list-element button:nth-of-type(2) {
     background-color: rgb(52, 152, 219); /* Blue */
   }
@@ -84,7 +84,7 @@
     background-color: rgb(33, 125, 187);
   }
   
-  /* MOVE DOWN button */
+
   .list-element button:nth-of-type(3) {
     background-color: rgb(229, 105, 251); /* Yellow */
     color: rgb(0, 0, 0);
@@ -93,7 +93,7 @@
     background-color: rgb(217, 28, 251);
   }
   
-  /* Text spans */
+
   .list-element span {
     flex-grow: 1;
     font-size: 16px;
